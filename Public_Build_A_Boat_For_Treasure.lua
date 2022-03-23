@@ -1,23 +1,3 @@
-_G.Key = "Made_By_Hydraa_FF"
-_G.Theme = "BloodTheme"
-
---[[
-
-    Themes:
-    LightTheme
-    DarkTheme
-    GrapeTheme
-    BloodTheme
-    Ocean
-    Midnight
-    Sentinel
-    Synapse
-
---]]
-
-
-
-
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
