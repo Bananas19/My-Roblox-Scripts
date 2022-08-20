@@ -13,13 +13,11 @@ local Games = {
 
 for i,v in pairs(Games) do
     if game.PlaceId == i then
-        loadstring(game:HttpGet(v))()
-    else
         game.StarterGui:SetCore("SendNotification", {
             Title = "Notification";
-            Text = "This Game Is Not Supported";
+            Text = "Thanks For Use My Script :)";
             Duration = 5;
         })
-        return
+        loadstring(game:HttpGet(v))()
     end
 end
