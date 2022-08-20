@@ -12,7 +12,7 @@ local Games = {
 }
 
 for i,v in pairs(Games) do
-    if game.PlaceId == id then
+    if game.PlaceId == i then
         loadstring(game:HttpGet(v))()
     else
         game.StarterGui:SetCore("SendNotification", {
